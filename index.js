@@ -62,7 +62,7 @@ app.put("/api/users/:id", (req, res) => {
   });
 });
 
-// ✅ PATCH: Partially update user
+//  PATCH: Partially update user
 app.patch("/api/users/:id", (req, res) => {
   const userId = Number(req.params.id);
   const updateFields = req.body;
